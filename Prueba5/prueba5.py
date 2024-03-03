@@ -41,10 +41,10 @@ def enviar_correos(correos: List[str], asunto: str, rutas_adjuntos: List[str], c
         adjunto.add_header('Content-Disposition', 'attachment', filename=ruta_adjunto.split('/')[-1])
         mensaje.attach(adjunto)
 
-    #Establece conexión con el servidor SMTP y enviar correo
+    #Establece conexión con el servidor SMTP de Gmail y envia correo
     with smtplib.SMTP('smtp.gmail.com', 587) as servidor_smtp:
         servidor_smtp.starttls()
-        servidor_smtp.login('jcamiloif.ji@gmail.com', 'nmtq rrun thkd oisd ') 
+        servidor_smtp.login('jcamiloif.ji@gmail.com', 'xxxx xxxx xxxx xxxx') #Aqui se ingresa la contraseña de aplicacion generada desde Google Account
         servidor_smtp.send_message(mensaje)
 
 
