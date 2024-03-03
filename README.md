@@ -15,3 +15,4 @@ Pandas, Numpy y matplotLib que nos permite manipular,transformas y graficar dato
  Python es un lenguaje de programación muy flexible, multipropósito, multiplataforma y de software gratuito, q
  ue cada día que pasa va tomando mucho más crédito dentro de la ciencia de la analítica de datos. 
  Con Python puedes hacer prácticamente cualquier cosa, a diferencia de otros lenguajes de programación que necesitan ser compilados o instalaciones bastante extensas y que podrían arrojar errores.
+ Este Lenguaje de Programación tiene muchas aristas, las cuales te pueden llevar desde la programación o diseño web, hasta el peculiar camino de la POO o Programación Orientada a Objetos.
